@@ -16,12 +16,21 @@ h1 {
 	color: white
 }
 
+h3 {
+  color: white
+}
+
 p {
 	color: white;
-	font-size: 30px
+	font-size: 28px
 }
 
 ul {
 	color: white;
-	font-size: 28px
+	font-size: 20px
+}
+
+img {
+  height: 150px;
+  width: 150px;
 }
