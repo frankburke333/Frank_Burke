@@ -11,11 +11,11 @@
 
 .text {
   position: absolute;
-  top: 590px;
+  top: 599px;
   left: 15px;
   width: 100%;
   margin: 5px auto;
-  color: Yellow;
+  color: #80d0ed;
   font-size: 1em;
 }
 
@@ -32,7 +32,7 @@ img {
 }
 
 a {
-  color: #ffebe6;
+  color: #80d0ed;
   font-size: 1em;
 }
 
