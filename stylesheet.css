@@ -16,13 +16,13 @@
   width: 100%;
   margin: 5px auto;
   color: Yellow;
-  font-size: 23px;
+  font-size: 1em;
 }
 
 
 .text h1 {
   color:#efacb2;
-  font-size: 23px;
+  font-size: 1em;
 }
 
 
@@ -33,7 +33,7 @@ img {
 
 a {
   color: #ffebe6;
-  font-size: 22px;
+  font-size: 1em;
 }
 
 
