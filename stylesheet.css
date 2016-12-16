@@ -12,12 +12,10 @@
 .text {
   color: Red;
   font-size: 1em;
+  position:fixed;
+	
 }
 
-
-.text h1 {
-  color: white;
-}
 
 
 img {
