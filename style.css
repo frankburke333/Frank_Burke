@@ -1,0 +1,646 @@
+
+
+ html {
+   background-color: #00528a;
+
+
+ }
+
+
+
+
+
+
+
+
+ @keyframes animatedBackground {
+    from { background-position: -100% 0; }
+    to { background-position: 100% 0; }
+ }
+
+ #animate-area   {
+     width: 100vw;
+     height: 90vw;
+     background-image: url('images/sean_join.jpeg');
+     background-position: 0px 0px;
+     background-repeat: repeat-x;
+     animation: animatedBackground 80s linear infinite;
+ }
+
+    ul {
+      list-style: none;
+    }
+
+   .image {
+      width: 100%;
+      text-align: center;
+      background-color: #00528a;
+   }
+
+   .fox {
+     width: 100%;
+     height: 100%;
+     max-height: 40em;
+     position: relative;
+     top: 0;
+   }
+
+   .gif {
+     position: absolute;
+     position: absolute;
+     width: 8em;
+     top: 0.6em;
+     right: 0em;
+   }
+
+   .reverse_gif {
+     position: absolute;
+     width: 8em;
+     top: 0.6em;
+     left: 0em;
+   }
+
+
+
+   .winter_header {
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 12em;
+     background-color: none;
+     margin: 0px;
+   }
+
+   .main_header h1{
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 11em;
+     background-color: #00528a;
+     margin: 0px;
+
+   }
+
+   .sub_header {
+     top: -15px;
+     left: 0;
+     width: 100%;
+     font-family: 'Rancho', helvetica, cursive;
+     color: #f7a31c;
+     text-align: center;
+     font-size: 5em;
+     background-color: #00528a;
+     margin: 0px;
+
+   }
+
+   .coming_soon {
+     font-size: 2em;
+     text-align: center;
+   }
+
+
+   .update h3 {
+     color: #f87c20;
+     text-align: center;
+     font-size: 85px;
+     font-family: 'Spicy Rice', cursive;
+     padding: 28px;
+     border: solid #00528a 5px;
+     border-radius: 15px;
+     background-color: rgba(0, 74, 146, 0.08);
+   }
+
+   .update {
+     text-align: left;
+     font-size: 30px;
+     font-family: 'Roboto', cursive;
+     background-color: white;
+     color: #004681;
+     padding: 11px;
+     border: #00528a solid 6px;
+     margin: 5px;
+     font-weight: bold;
+
+   }
+
+   .update li {
+     font-family: 'Roboto', cursive;
+   }
+
+
+
+   .canada_section h4 {
+     margin: 0px;
+     padding: 15px;
+     font-family: 'Rancho', arial;
+     font-size: 4em;
+
+
+   }
+
+   .canada_day  {
+     text-align: center;
+     color: white;
+     background-color: #00528a;
+     padding: 10px;
+
+
+   }
+
+
+   .canada_day .img-thumbnail {
+     border: solid #00528a 5px;
+     width: 5em;
+     height: 5em;
+     padding: 10px;
+     margin: 5px;
+   }
+
+
+   .six {
+     color: #00528a;
+     text-align: center;
+     font-size: 89px;
+     font-family: 'Roboto', cursive;
+     padding: 30px;
+   }
+
+
+
+
+   #profile {
+     background-color: white;
+     font-family: 'Roboto', cursive;
+     font-size: 22px;
+     border: solid black 2px;
+     text-align: center;
+     margin-top: : 5px;
+     padding: 5px;
+   }
+
+  .img-circle {
+  width: 13em;
+  height: 13em;
+  margin: 8px;
+  border: solid ##00528a 5px;
+  }
+  .question {
+    color: white;
+    text-align: center;
+    background-color: #00528a;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer {
+    color: #ff610c;
+    text-align: center;
+    font-size: 25px;
+    height: 57px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer_life {
+    color: #ff610c;
+    text-align: center;
+    font-size: 24px;
+    height: 70px;
+    font-family: 'Roboto', cursive;
+
+
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 30px;
+    color: #00528a;
+
+  }
+
+  .hometown_header {
+    color: #ff610c;
+    text-align: center;
+    font-size: 33px;
+    height: 45px;
+    font-family: 'Roboto', cursive;
+    text-align: center;
+    margin: 60px;
+  }
+
+
+
+  .overlay {
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+
+  @media screen and (min-width: 416px) {
+    .image {
+       width: 100%;
+       text-align: center;
+       background-color: #00528a;
+    }
+
+
+    .fox {
+      width: 100%;
+      height: 100%;
+      max-height: 40em;
+      position: relative;
+      top: 0;
+    }
+    .gif {
+      position: absolute;
+      position: absolute;
+      width: 8em;
+      top: 0.6em;
+      right: 0em;
+    }
+
+    .reverse_gif {
+      position: absolute;
+      width: 8em;
+      top: 0.6em;
+      left: 0em;
+    }
+
+
+
+    .main_header {
+
+    }
+
+    .main_header h1{
+      top: -15px;
+      left: 0;
+      width: 100%;
+      font-family: 'Rancho', helvetica, cursive;
+      color: #f7a31c;
+      text-align: center;
+      font-size: 10em;
+      background-color: #00528a;
+      margin: 0px;
+
+    }
+
+    .sub_header h5{
+      left: 0;
+      width: 100%;
+      font-family: 'Rancho', helvetica, cursive;
+      color: #f7a31c;
+      text-align: center;
+      font-size: 5em;
+      background-color: #00528a;
+      margin: 0px;
+
+    }
+
+
+    .six {
+      color: #00528a;
+      text-align: center;
+      font-size: 69px;
+      font-family: 'Righteous', cursive;
+      padding: 60px;
+      border: solid #00528a 25px;
+      margin-bottom: -5px;
+      margin-top: -5px;
+}
+
+    .six_small {
+      display: none;
+    }
+
+    .small_header {
+      display: none;
+    }
+
+    #profile {
+      background-color: white;
+      font-family: 'Righteous', cursive;
+      font-size: 22px;
+      border: solid black 2px;
+      text-align: center;
+      margin-top: : 5px;
+      padding: 5px;
+    }
+
+   .img-circle {
+   width: 13em;
+   height: 13em;
+   margin: 8px;
+   border: solid #00528a 5px;
+   }
+   .question {
+     color: white;
+     text-align: center;
+     background-color: #00528a;
+   }
+
+   .answer {
+     color: #ff610c;
+     text-align: center;
+     font-size: 24px;
+   }
+}
+  @media screen and (max-width: 415px) {
+
+    #animate-area   {
+        width: 100vw;
+        height: 70vw;
+        background-image: url('images/sean_join.jpeg');
+        background-position: 0px 0px;
+        background-repeat: repeat-x;
+        animation: animatedBackground 130s linear infinite;
+    }
+
+  .main_header {
+    display: none;
+  }
+
+  .small_header {
+    top: -15px;
+    left: 0;
+    width: 100%;
+    font-family: 'Rancho', helvetica, cursive;
+    color: #f7a31c;
+    text-align: center;
+    font-size: 1em;
+    background-color: #00528a;
+    margin: 0px;
+    margin-bottom: -11px;
+    padding: 1em;
+  }
+
+
+  .gif {
+    position: absolute;
+    width: 3.5em;
+    height: 3.5em;
+    top: 1.5em;
+    right: 1em;
+  }
+
+  .reverse_gif {
+    position: absolute;
+    width: 3.5em;
+    height: 3.5em;
+    top: 1.5em;
+    left: 1em;
+  }
+
+
+  .six {
+    display: none;
+  }
+
+  .six_small {
+    color: #00528a;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Wendy One', cursive;
+    padding: 30px;
+  }
+
+  .update h3 {
+    color: #ff9300;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Spicy Rice', cursive;
+    padding: 30px;
+    background-color: rgba(0, 74, 146, 0.08);
+
+
+  }
+
+
+
+  .update {
+    color: #00528a;
+    text-align: left;
+    font-size: 23px;
+    font-family: Arial, cursive;
+    padding: 30px;
+  }
+
+
+  .question {
+    font-size: 22px;
+  }
+
+  .answer {
+    color: #ff610c;
+    text-align: center;
+    font-size: 22px;
+    height: 55px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .answer_life {
+    color: #ff610c;
+    text-align: center;
+    font-size: 20px;
+    height: 75px;
+    font-family: 'Roboto', cursive;
+
+  }
+
+  .img-circle {
+  width: 9em;
+  height: 9em;
+  margin: 8px;
+  border: solid #00528a 5px;
+  }
+
+  .canada_day {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    font-family: 'Rancho', arial;
+
+  }
+
+
+  .canada_day .img-thumbnail {
+    display: none;
+  }
+
+  .map {
+    display: none;
+  }
+
+}
+
+
+.ottawa_update {
+  display: none;
+}
+
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Wendy One', cursive;
+    font-size: 2.3em;
+    text-align: center;
+    margin-left: 45%
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+.tab button {
+
+}
+#summer_img {
+    width: 100%;
+    height: auto;
+    margin: 3px;
+}
+
+.congrats {
+  color: #f87c20;
+  text-align: center;
+  font-size: 85px;
+  font-family: 'Spicy Rice', cursive;
+  padding: 28px;
+  border: solid #00528a 5px;
+  border-radius: 15px;
+  background-color: rgba(0, 74, 146, 0.08);
+}
+
+.congrats_end {
+  font-family: 'Spicy Rice', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* js slide show */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-left: 8%;
+  margin-top: 10px;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin-top: 10px;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  position: relative !important;
+  margin: auto !important;  border: 0;
+  height: 29em;
+  margin-left: 8%;
+  max-width: 85%;
+
+
+  }
+
+a {
+  font-size: 1.6em;
+  text-align: center;
+  margin-left: 25%
+}
+
+
+.frank {
+  margin-left: 1em;
+}
+
+.frank img {
+  width: 80%;
+}
+
+img.jack {
+  width: 5em;
+  margin-left: 44%;
+}
+
+.friends {
+  text-align: center;
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+video {
+  margin-top: 1em;
+}
+
+.play {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #00528a;
+  margin-top: 15px;
+}
+
+
+a.email {
+    color: blue;
+    font-size: 1em;
+    margin-left: 0
+}
